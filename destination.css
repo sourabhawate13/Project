@@ -1,0 +1,426 @@
+*{
+  			box-sizing: border-box;
+  		}
+        html,body{
+            overflow-x:hidden; 
+        }
+  		body{
+  			margin: 0;
+  			padding:0;
+
+  		}
+  		.top{
+    		width: 90%;
+    		margin: 0 auto;
+    		padding-top: 17px;
+    		padding-bottom: 15px;
+    		padding-right: 15px;
+    		overflow: hidden;
+    	}
+    	.lines{
+    		padding:22px 16px;
+    		float: left;
+    		font-size: 28px;
+    	}
+    	.touch{
+    		width: 150px;
+    		text-align:center;
+    		padding: 10px;
+    		border: 1px solid green;
+    		float: right;
+			margin-top: 25px;   		
+    
+    	    	}
+    	    	i{
+    	    		margin-right: 10px;
+    	    	}
+    	    .touch span{
+    	    	font-size: 12px;
+    	    }
+    	    .image{
+    	    	width: 400px;
+    	    	margin-left:auto;
+                margin-right:auto; 
+                padding-top: 3px;    	    	
+    	    }
+    	    .clear{
+    	    	clear: both;
+    	    }
+    	    .bg{
+    	    	background-image: url("whosacitizen-01_slide-b0eb23aaedb2b614c6c9c5dba4aca5f814ab85da-s800-c85.jpg");
+    	    	height: 450px;
+              	background-repeat: no-repeat;
+    	    	background-size:cover;
+    	    	background-position: center;
+    	    	position: relative;
+    	    	
+
+    	    }
+    	   
+    	    .island{
+    	    	position: absolute;
+    	    	padding:10px; 
+    	    	top: 30%;
+    	    	left:7%;
+
+    	    }
+    	    .island h3{
+    	    	color: white;
+    	    	font-size:28px;
+    	    }
+    	    .island h1{
+    	    	color: white;
+    	    	font-size: 45px;
+    	    }
+    	    .content{
+    	    	width: 60%;
+    	    	margin: 0 auto;
+    	    	padding: 20px 0;
+    	    	text-align: center;
+    	    }
+    	    .content h1{
+    	    	color: #495934;
+
+    	    }
+    	    .content p{
+    	    	color: #707070;
+    	    	margin-bottom: 35px;
+                font-size: 15px;
+    	    }
+    	    .gallery{
+    	    	display: flex;
+    	    	flex-wrap: wrap;
+    	    	
+    	    }
+    	  	.first{
+    	  		width: 33.33%;
+    	  		margin-left: 0;
+
+    	  	}
+    	  	.second{
+    	  		width: 33.33%;
+    	    	}
+    	  	.images{
+    	  		width: 100%;
+    	  		height: 100%;
+    	  		display: block;
+    	  	}
+    	  	.section{
+    	  		background-color: #EEEEEE;
+    	  		padding: 40px 0;
+    	  	}
+    	  	.geography{
+    	  		width: 87%;
+    	  		margin: 0 auto;
+    	  		display: flex;
+    	  		flex-wrap: wrap;
+    	  		
+    	  	}
+    	  	.info{
+    	  		width: 45%;
+    	  		margin-right: 30px;
+
+    	  	}
+    	  	.info p{
+    	  		color: #A3A3A3;
+    	  		font-size: 16px;
+    	  	}
+    	  	.map{
+    	  		width: 41%;
+    	  		padding-top: 50px;
+    	  		margin-left: 20px;
+    	  	}
+    	  	.mr{
+    	  		margin-bottom: 60px;
+    	  	}
+    	  	.mapinfo{
+    	  		padding: 8px 18px;
+    	  		position: relative;
+    	  		background-color: white;
+    	  		font-size: 11px;
+    	  		text-align: center;
+    	  		color: #A3A3A3;
+    	  	}
+    	  	.boat{
+    	  		background-image: url("61bae555806967ae088fb5cb0f6dfb8d.jpg");
+    	  		height: 450px;
+    	  		background-repeat: no-repeat;
+    	  		background-position: center;
+    	  		background-size: cover;
+    	  		position: relative;
+    	  	}
+    	  	.climate{
+    	  		position: absolute;
+    	  		padding:8px 16px;
+    	  		text-align: center;
+    	  		top:40%;
+    	  		left: 26%;
+    	  		color: white;
+    	  		font-size: 27px;
+    	  	}
+    	  .more{
+    	  	padding: 70px 0;
+    	  }
+    	  .history{
+    	  	width: 85%;
+    	  	margin: 0 auto;
+    	  	display: flex;
+    	  	flex-wrap: wrap;
+    	  	justify-content: space-around;
+    	  }
+    	  .one{
+    	  	width: 35%;
+
+    	  }
+    	  .one p{
+    	  	color: #A3A3A3;
+    	  	font-size: 16px;
+
+    	  }
+    	  .two{
+    	  	width: 35%;
+
+    	  }
+    	  .two p{
+    	  	color: #A3A3A3;
+    	  	font-size: 16px;
+    	  	margin-top: 25px;
+    	  }
+    	  .sky{
+    	  	background-image: url("sunshine-clouds-sky-during-morning-background-blue-white-pastel-heaven-soft-focus-lens-flare-sunlight-abstract-blurred-cyan-gradient-peaceful-nature-open-view-out-windows-beautiful-summer-spring_1253-1094.jpg");
+    	  	height: 520px;
+    	  	background-repeat: no-repeat;
+    	  	background-position: center;
+    	  	background-size:cover;
+    	  	padding-top:30px;
+    	  	padding-bottom: 20px;
+    	  	
+    	  }
+    	  .skycontent{
+    	  	display: flex;
+    	  	flex-wrap: wrap;
+    	  	width: 90%;
+          	margin: 0 auto;
+          	justify-content: center;
+            padding: 20px 0;
+    	  }
+    	  .card1{
+    	  	padding-top: 10px;
+    	  	padding-left: 20px;
+    	  	padding-right: 20px;
+    	  	margin-top: auto ;
+    	  	margin-bottom: auto;
+    	   	width: 41%;
+    	   	margin-right: -90px;
+    	  	position: relative;
+    	  	background-color: white; 
+    	  }
+    	  .card1 h1{
+    	  	color: #4A5B31;
+    	  	
+    	  }
+    	  .card1 p{
+    	  	
+    	  	color: #A3A3A3;
+    	  	font-size: 15px;
+
+    	  }
+    	  .card1 h4{
+    	  
+    	  	font-size: 15px;
+
+    	  }
+    	  .show{
+    	  	padding: 10px 18px;
+    	  	background-color: #9BCD52;
+    	  	color: white;
+    	  	position: absolute;
+    	  	right: 0;
+    	  	bottom: 0;
+    	  	font-size: 14px;
+    	  }
+    	  .beach{
+    	  	width:41%;
+    	    margin: auto 0;
+
+    	  }
+    	  .section2{background-color: #9BCD52;
+    			padding: 25px 0;}
+    	  .section1{
+    			width: 75%;
+    			margin: 0 auto;
+    			padding: 30px 0;
+    			overflow: hidden;
+    		}
+    		.book{
+    			width: 65%;
+    			padding: 8px 16px;
+    			overflow: hidden;
+    			float: left;
+	    }
+	  	.calendar{
+	  		width: 15%;
+	  		float: left;
+	  	}
+	  	.now{
+	  		width: 45%;
+	  		float: left;
+	  		
+	  		
+	  	}
+	  	.now h1{
+	  		color: white;
+	  		margin-top: 0;
+	  		margin-bottom: 0;
+	  		text-align: start;
+
+	  	}
+	  	.now p{
+	  		margin-top: 0;
+	  		font-size: 24px;
+	  		color: #5C7A30;
+	  		text-align: start;
+	  	}
+	    .check{
+	    	width: 15%;
+	    	color: black;
+	    	float: left;
+	    	padding:10px 18px;
+	    	background-color: white;
+	    	text-align: center;
+	    	font-weight: bold;
+	    	margin-top: 20px;
+	    	font-size: 14px;
+	    }
+	    	    .container3{
+	    	background-color: #4B5B34;
+	    	padding: 65px 25px;
+	    }
+	    .footer{
+	    	width: 95%;
+	    	margin: 0 auto;
+	    	display: flex;
+	    	flex-wrap: wrap;
+	    	
+
+	    }
+	  .about,.customer,.reservation{
+	    	width: 20%;
+	    	padding: 0 10px;
+	    	
+
+	    }
+        .ecotour{
+            width: 25%;
+        }
+	    .ecotour p{
+	    	color: white;
+	    	font-size:13px; 
+	    	padding-left: 15px;
+	    }
+	    .ecotour img{
+	    	display: inline-block;
+	    }
+	    .about,.customer,.reservation,.contact h4{
+	    	color: #94C955;
+
+	    }
+	    .reservation h5{
+	    	color: white;
+	    	margin-bottom: 0;
+            display: inline-block;
+	    }
+	    .reservation p{
+	    	color: white;
+	    	margin-top: 0;
+	    	font-size: 14px;
+
+	    }
+	    .contact{
+	    	width: 15%;
+	    }
+@media only screen and (max-width: 576px){
+    .top{
+        width: 100%;
+    }
+    .touch,.lines{
+        display: none;
+    }
+    .image{
+        width: 100%;
+    }
+  .bg{
+    background-size: 100% 100%;
+  }
+  .island h3{
+    font-size: 25px;
+  }
+  .island h1{
+    font-size: 35px;
+  }
+ .content p{
+  
+    font-size:14px;
+    
+ }
+ .gallery,.geography,.history,.skycontent{
+    flex-direction: column;
+ }
+ .first,.second,.info,.map,.one,.two{
+    width: 100%;
+ }
+ .one p{
+    font-size: 15px;
+ }
+.map{
+    margin-left: 0;
+}
+.climate{
+    font-size: 16px;
+    left: 20%;
+    right: 20%;
+}
+ .sky{
+    height: 670px;
+    padding: 20px 0;
+ }
+.card1{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card1 h1{
+    font-size: 28px;
+}
+.card1 p{
+    font-size: 12px;
+}
+.card1 h4{
+    font-size: 13px;
+}
+.beach{
+    width: 100%;
+}
+.beah img{
+    display: block;
+}
+.book{
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }
+    .check{
+        float: none;
+        width: 80%;
+    }
+    .footer{
+        flex-direction: row;
+
+    }
+    .about,.customer,.reservation,.ecotour,.contact{
+        width: 100%;
+       
+    }
+    .about,.customer,.reservation,.ecotour{
+        border-bottom: 4px solid green;
+    }
+}
